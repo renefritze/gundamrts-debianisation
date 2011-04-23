@@ -1,0 +1,6 @@
+*.debhelper.log
+*.substvars
+*.changes
+*.dsc
+*.build
+*.deb
