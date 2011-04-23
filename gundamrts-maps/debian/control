@@ -10,8 +10,4 @@ Homepage: http://www.smoth.net/drupal/GundamRTS
 Package: gundamrts-maps
 Architecture: all
 Depends: spring (>= 0.82.5), springlobby (>= 0.104)
-Description: Evolution RTS has oneline description
- Evolution RTS has 
- a multiline
- description.
-
+Description: Gundam RTS maps not in the shared spring-maps-grts-evo package
