@@ -1,0 +1,5 @@
+#!/bin/bash
+
+spring -w -x 640 -y 480 /usr/share/games/spring/GRTS_menu.txt
+
+

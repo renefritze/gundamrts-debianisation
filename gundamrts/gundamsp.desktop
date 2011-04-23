@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Gundam RTS Singleplayer
+Comment=Gundam RTS Singleplayer
+Exec=gundamrts
+Icon=gundam_rts.png
+Terminal=false
+Type=Application
+Categories=Application;Game;StrategyGame;
+X-SuSE-translate=false

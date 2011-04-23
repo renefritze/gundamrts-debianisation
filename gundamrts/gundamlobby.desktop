@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Gundam RTS Multiplayer
+Comment=Gundam RTS Multiplayer
+Exec=gundamlobby
+Icon=gundam_rts.png
+Terminal=false
+Type=Application
+Categories=Application;Game;StrategyGame;
+X-SuSE-translate=false

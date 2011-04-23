@@ -1,0 +1,5 @@
+#!/bin/bash
+
+springlobby -n GRTSLobby -c "gundam_custom-sl.sdd" ${@}
+
+

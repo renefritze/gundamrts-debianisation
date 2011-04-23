@@ -1,0 +1,165 @@
+
+
+[GAME]
+{
+	GameType=Gundam RTS 1.26;
+	Mapname=Grts_Gunmetal_Harbor_009;
+
+	[MODOPTIONS]
+	{
+
+		ViewPoint="{px=7671.900390625, py=62.963062286377, pz=6813.5458984375, rz=0, dx=-0.79257786273956, dy=-0.087039396166801, name=fps, ry=4.0615911483765, rx=-0.087150052189827, mode=0, dz=-0.60351955890656, oldHeight=56.376758575439}";
+
+		// Gundam specific:
+		mo_custom_chickenspawn=90;// Time between chicken waves.
+		//comm=std;// What is the game mode selected
+		mo_graceperiod=220;// Time before spawner ai becomes active.
+		mo_custom_angerbonus=20;// Seconds added per burrow kill.
+		mo_custom_expstep=1.5;// Exp each chicken will receive by the end of the game
+		mo_custom_minchicken=8;// Minimum Number of chickens before spawn chance kicks in
+		startmaterials=3000.0000000000;// Choose the starting basic materials every player starts with
+		mo_custom_lobberemp=4;// Max duration of Lobber EMP artillery
+		mo_queentime=40;// A battle ship will come to attack after given time.
+		materialstorage=4000.0000000000;// Choose the starting basic material storage every player starts with
+		startexotic=0.0000000000;// Choose the starting exotic materials every player starts with
+		startrefined=500.0000000000;// Choose the starting refined materials every player starts with
+		mo_custom_spawnchance=33;// Percent chance of each chicken spawn once greater thwn the min chickens per player limit
+		ons=0;
+		mo_custom_burrowspawn=120;// Time between elevator spawns.
+		mo_chickenstart=avoid;// Control where burrows spawn
+		sos=0;
+		mo_custom_queenspawnmult=1;// Number of squads spawned by the queen at once.
+		colorwars=0;
+		mo_maxchicken=400;// Maximum number of units on map.
+
+		// Generic, may not apply to Gundam:
+		GameMode=3;
+			// 0 for "Kill everything!"
+			// 1 for "Kill all commanding units!"
+			// 2 for "Kill the first unit!"
+			// 3 for "Never ends!"
+		ghostedbuildings=1;
+		fixedallies=0;
+		MaxUnits=512;
+		MinSpeed=0.1;
+		MaxSpeed=10;
+		StartMetal=1024;
+		StartEnergy=1024;
+		LauncherName=Write GameState widget;
+		LauncherVersion=1.53;
+		DateTime=Monday 23 August 2010 at 01:49:36;
+	}
+
+	[MAPOPTIONS]
+	{
+		alt=0;
+		fog=0;
+	}
+
+	HostIP=;
+	HostPort=0;
+	IsHost=1;
+
+	StartPosType=0;// 0 for fixed, 1 for random, 2 for chosen ingame, 3 for chosen out of game
+	MyPlayerNum=0;
+	MyPlayerName=Beholder;
+	NumPlayers=1;
+	NumUsers=2;
+	NumTeams=2;
+	NumAllyTeams=2;
+
+	// List of human controlled players:
+	[PLAYER0]
+	{
+		name=Beholder;
+		Team=0;
+		Spectator=1;
+	}
+
+	// List of AI controlled players:
+	[AI0]
+	{
+		Name=Mechas;
+		ShortName=Survival Spawner: Normal;
+		//Version=?;
+		Team=0;
+		Host=0;// Number of the PLAYER hosting the AI
+	}
+	[AI1]
+	{
+		Name=Targets;
+		ShortName=Survival Spawner: Normal;
+		//Version=?;
+		Team=1;
+		Host=0;// Number of the PLAYER hosting the AI
+	}
+
+	// List of "teams" (or "players" depending on terminology):
+	[TEAM0]
+	{
+		TeamLeader=0;
+		AllyTeam=0;
+		Handicap=0;
+		Side=federation;
+		RGBColor=1 0 0;
+		AIDLL=Survival Spawner: Normal;
+		aioverride=Idle;
+		StartPosX=9511;
+		StartPosZ=1917;
+		StartMetal=1000;
+		StartEnergy=1000;
+		RemoveUnits=1;
+		RemoveFeatures=1;
+		u1= rx79beam Position 7551 6769 Rotation 100 FireState 0 MoveState 0;
+		u2= ez8 Position 7609 6713 Rotation 30 FireState 0 MoveState 0;
+		u3= fa781 Position 7545 6812 Rotation 90 FireState 0 MoveState 0;
+		u4= rgmsniper Position 7640 6685 Rotation 30 FireState 0 MoveState 0;
+		u5= rgm79 Position 6092 6596 Rotation 50 FireState 0 Patrol 6092 6596 Patrol 7845 6625;
+	}
+	[TEAM1]
+	{
+		TeamLeader=0;
+		AllyTeam=1;
+		Handicap=0;
+		Side=federation;
+		RGBColor=0.35294118523598 0.35294118523598 1;
+		AIDLL=Survival Spawner: Normal;
+		aioverride=Regenerative AI;
+		StartPosX=1706;
+		StartPosZ=8905;
+		StartMetal=1000;
+		StartEnergy=1000;
+		RemoveUnits=1;
+		RemoveFeatures=1;
+		u1= zeonhangar Position 7792 7968 Rotation 180 FireState 0;
+		u2= zeonhangar Position 8784 6000 FireState 0;
+		u3= zeonplant Position 8448 6096 Rotation 180;
+		u4= zeonplant Position 8288 6096 MoveState 0;
+		u5= zeonplant Position 8448 5968 Rotation 180;
+		u6= zeonplant Position 8288 5968 MoveState 0;
+		u7= zeonmechist Position 8648 6104 MoveState 0;
+		u8= zeonmechist Position 8568 6104 MoveState 0;
+		u9= zeonmechist Position 8648 6024 MoveState 0;
+		u10= zeonmechist Position 8568 6024 MoveState 0;
+		u11= zeonmechist Position 8648 5944 MoveState 0;
+		u12= zeonmechist Position 8568 5944 MoveState 0;
+		//u13= juagg Position 7716 7445 Rotation 180 FireState 0 Move 7719 6728;
+		//u14= zeonairport Position 8816 7296 Rotation 90 FireState 0 Repeat Move 7443 6792 Build luggun;
+	}
+
+	// List of ally teams: This is for assymetrical alliances
+	[ALLYTEAM0]
+	{
+		NumAllies=0;
+	}
+	[ALLYTEAM1]
+	{
+		NumAllies=0;
+	}
+
+	// List of restrictions
+	NumRestrictions=0;
+	[RESTRICT]
+	{
+	}
+}
