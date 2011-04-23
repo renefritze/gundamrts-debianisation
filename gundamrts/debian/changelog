@@ -1,3 +1,9 @@
+gundamrts (1.26.1-ppa1) maverick; urgency=low
+
+  * depend on shared and own map package
+
+ -- Rene Milk <koshi@springlobby.info>  Sat, 23 Apr 2011 23:28:44 +0200
+
 gundamrts (1.26.0-ppa1) maverick; urgency=low
 
   * initial packaging

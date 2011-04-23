@@ -9,7 +9,7 @@ Homepage: http://www.smoth.net/drupal/GundamRTS
 
 Package: gundamrts
 Architecture: all
-Depends: spring (>= 0.82.7), springlobby (> 0.129), gundamrts-data, gundamrts-maps
+Depends: spring (>= 0.82.7), springlobby (> 0.129), gundamrts-data, spring-maps-grts-evo, gundamrts-maps
 Description: Evolution RTS has oneline description
  Evolution RTS has 
  a multiline
