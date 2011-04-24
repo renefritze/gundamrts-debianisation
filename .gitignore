@@ -5,3 +5,6 @@
 *.build
 *.deb
 *~
+*.debian.tar.gz
+*.orig.tar.gz
+*.ppa.upload
