@@ -1,9 +1,9 @@
-gundamlobby.conf /etc/default/
+grtslobby.conf /etc/default/
 gundamlobby.desktop /usr/share/applications/
 gundamsp.desktop /usr/share/applications/
 gundam_rts.png /usr/share/pixmaps/
 gundam_custom-sl.sdd /usr/share/games/spring/mods
 GRTS_menu.txt /usr/share/games/spring/
-gundamlobby /usr/games
-gundamrts /usr/games
+grtslobby /usr/games
+grtssp /usr/games
 
