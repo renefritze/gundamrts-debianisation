@@ -1,4 +1,10 @@
-gundamrts (1.26.3) maverick; urgency=low
+gundamrts (1.26.5-0) maverick; urgency=low
+
+  * fixed desktop launchers
+
+ -- Rene Milk <koshi@springlobby.info>  Sun, 24 Apr 2011 12:07:21 +0200
+
+gundamrts (1.26.4) maverick; urgency=low
 
   * rename launch scripts, fix install rules
 

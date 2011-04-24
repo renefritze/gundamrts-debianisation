@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Gundam RTS Multiplayer
 Comment=Gundam RTS Multiplayer
-Exec=gundamlobby
+Exec=grtslobby
 Icon=gundam_rts.png
 Terminal=false
 Type=Application
