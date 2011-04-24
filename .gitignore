@@ -8,3 +8,5 @@
 *.debian.tar.gz
 *.orig.tar.gz
 *.ppa.upload
+gundamrts-maps/maps/
+gundamrts-data/debian/patches/
